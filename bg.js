@@ -4,6 +4,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 	  // No tabs or host permissions needed!
 	  
 	  chrome.tabs.executeScript({
-	    code: 'scrollTo();'
+	    code: 'scrollTo(0,0);'
 	  });
 	});
